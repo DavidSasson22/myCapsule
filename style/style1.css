@@ -87,7 +87,9 @@ h2 a {
 	  background-color: #1F2739;
 }
 
-.myTable td:first-child { color: #FB667A; }
+.myTable td:first-child {
+  width: 40px;
+  color: #FB667A; }
 
 .myTable tr:hover {
    background-color: #464A52;

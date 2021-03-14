@@ -159,5 +159,15 @@ class Capsule {
       console.log(`false`);
       alert(`There are no students like ${hob}`);
     }
+  }
+  delete (id) {
+    console.log(`delete called`);
+    this.all[id] = null;
+    if(this.all[id] === null) {
+      console.log(`delete succed`);
+    }
+    else {
+      console.log(`delete = ${this.all[id]}`);
+    }
   }  
 }
